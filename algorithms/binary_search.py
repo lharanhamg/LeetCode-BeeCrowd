@@ -4,7 +4,7 @@ def bin_search(nums, target):
 
     while l <= r:
 
-        m = (l + r) // 2
+        m = l + (r - l) // 2
 
         if nums[m] == target:
             return m
